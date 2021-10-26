@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/spoo/static/css/main.b3ea8f86.chunk.css",
+    "main.js": "/spoo/static/js/main.4eddab23.chunk.js",
+    "main.js.map": "/spoo/static/js/main.4eddab23.chunk.js.map",
+    "runtime-main.js": "/spoo/static/js/runtime-main.3000d0f5.js",
+    "runtime-main.js.map": "/spoo/static/js/runtime-main.3000d0f5.js.map",
+    "static/js/2.87de00aa.chunk.js": "/spoo/static/js/2.87de00aa.chunk.js",
+    "static/js/2.87de00aa.chunk.js.map": "/spoo/static/js/2.87de00aa.chunk.js.map",
+    "static/js/3.ebcf9e24.chunk.js": "/spoo/static/js/3.ebcf9e24.chunk.js",
+    "static/js/3.ebcf9e24.chunk.js.map": "/spoo/static/js/3.ebcf9e24.chunk.js.map",
+    "index.html": "/spoo/index.html",
+    "static/css/main.b3ea8f86.chunk.css.map": "/spoo/static/css/main.b3ea8f86.chunk.css.map",
+    "static/js/2.87de00aa.chunk.js.LICENSE.txt": "/spoo/static/js/2.87de00aa.chunk.js.LICENSE.txt",
+    "static/media/emoji.0b3ddb54.png": "/spoo/static/media/emoji.0b3ddb54.png",
+    "static/media/App.css": "/spoo/static/media/hearts.d05f81ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3000d0f5.js",
+    "static/js/2.87de00aa.chunk.js",
+    "static/css/main.b3ea8f86.chunk.css",
+    "static/js/main.4eddab23.chunk.js"
+  ]
+}
