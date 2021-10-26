@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 35vmin;
   pointer-events: none;
 }
 
@@ -11,17 +11,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .word {
+    animation: neon .08s ease-in-out infinite alternate;
+  }
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background: url('hearts.jpg');
+  background-repeat: repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -34,5 +39,52 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.sign {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.word {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+
+}
+
+.timer{
+  margin: 3vh;
+  font-size: 3rem;
+  color: #e37dd9;
+  text-shadow: 2px 2px #0062a3;
+}
+/*-- Animation Keyframes --*/
+
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.92),
+    0 0 30px rgba(202,228,225,0.34),
+    0 0 12px rgba(30,132,242,0.52),
+    0 0 21px rgba(30,132,242,0.92),
+    0 0 34px rgba(30,132,242,0.78),
+    0 0 54px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 6px rgba(202,228,225,0.98),
+    0 0 30px rgba(202,228,225,0.42),
+    0 0 12px rgba(30,132,242,0.58),
+    0 0 22px rgba(30,132,242,0.84),
+    0 0 38px rgba(30,132,242,0.88),
+    0 0 60px rgba(30,132,242,1);
   }
 }
