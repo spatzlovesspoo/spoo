@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spoo/static/css/main.b3ea8f86.chunk.css",
-    "main.js": "/spoo/static/js/main.4eddab23.chunk.js",
-    "main.js.map": "/spoo/static/js/main.4eddab23.chunk.js.map",
+    "main.js": "/spoo/static/js/main.cfce35d7.chunk.js",
+    "main.js.map": "/spoo/static/js/main.cfce35d7.chunk.js.map",
     "runtime-main.js": "/spoo/static/js/runtime-main.3000d0f5.js",
     "runtime-main.js.map": "/spoo/static/js/runtime-main.3000d0f5.js.map",
     "static/js/2.87de00aa.chunk.js": "/spoo/static/js/2.87de00aa.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/spoo/index.html",
     "static/css/main.b3ea8f86.chunk.css.map": "/spoo/static/css/main.b3ea8f86.chunk.css.map",
     "static/js/2.87de00aa.chunk.js.LICENSE.txt": "/spoo/static/js/2.87de00aa.chunk.js.LICENSE.txt",
+    "static/media/capy.10d7f8c0.gif": "/spoo/static/media/capy.10d7f8c0.gif",
     "static/media/emoji.0b3ddb54.png": "/spoo/static/media/emoji.0b3ddb54.png",
     "static/media/App.css": "/spoo/static/media/hearts.d05f81ab.jpg"
   },
@@ -19,6 +20,6 @@
     "static/js/runtime-main.3000d0f5.js",
     "static/js/2.87de00aa.chunk.js",
     "static/css/main.b3ea8f86.chunk.css",
-    "static/js/main.4eddab23.chunk.js"
+    "static/js/main.cfce35d7.chunk.js"
   ]
 }
