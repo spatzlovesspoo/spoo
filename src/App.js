@@ -1,13 +1,14 @@
 import logo from './emoji.png';
 import React, { useEffect, useState } from "react";
 import hearts from './hearts.jpg';
+import capy from './capy.gif';
 import './App.css';
 
 
 function App() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    const difference = +new Date(`2021-12-2`) - +new Date();
+    const difference = +new Date(Date.parse("Thu Dec 02 2021 19:00:00 GMT-0800")) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -59,6 +60,9 @@ function App() {
         <div>
           <img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/u.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/n.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/t.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/i.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/l.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/blank.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/s.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/p.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/a.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/t.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/z.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/blank.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/a.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/n.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/d.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/blank.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/s.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/p.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/o.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/o.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/blank.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/r.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/e.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/u.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/n.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/i.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/t.gif" border="0" /><img src="http://www.myspacegens.com/images/glitter_text/styles/1/images/e.gif" border="0" />
         </div>
+        <p>
+        </p>
+        <img src={capy} />
 
 
       </header>
