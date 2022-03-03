@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    const difference = +new Date(Date.parse("Thu Dec 02 2021 19:00:00 GMT-0800")) - +new Date();
+    const difference = +new Date(Date.parse("Tue May 03 2022 11:00:00 GMT")) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
